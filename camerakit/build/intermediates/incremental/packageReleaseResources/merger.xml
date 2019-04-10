@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Users\Administrator\Desktop\camera_demo\camerakit\src\main\res"/><source path="C:\Users\Administrator\Desktop\camera_demo\camerakit\build\generated\res\rs\release"/><source path="C:\Users\Administrator\Desktop\camera_demo\camerakit\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="C:\Users\Administrator\Desktop\camera_demo\camerakit\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\Administrator\Desktop\camera_demo\camerakit\src\main\res"><file name="focus_marker_fill" path="C:\Users\Administrator\Desktop\camera_demo\camerakit\src\main\res\drawable\focus_marker_fill.xml" qualifiers="" type="drawable"/><file name="focus_marker_outline" path="C:\Users\Administrator\Desktop\camera_demo\camerakit\src\main\res\drawable\focus_marker_outline.xml" qualifiers="" type="drawable"/><file name="layout_focus_marker" path="C:\Users\Administrator\Desktop\camera_demo\camerakit\src\main\res\layout\layout_focus_marker.xml" qualifiers="" type="layout"/><file name="texture_view" path="C:\Users\Administrator\Desktop\camera_demo\camerakit\src\main\res\layout\texture_view.xml" qualifiers="" type="layout"/><file path="C:\Users\Administrator\Desktop\camera_demo\camerakit\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="CameraView">
+
+        <attr format="enum" name="ckFacing">
+            <enum name="back" value="0"/>
+            <enum name="front" value="1"/>
+        </attr>
+
+        <attr format="enum" name="ckFlash">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+            <enum name="auto" value="2"/>
+        </attr>
+
+        <attr format="enum" name="ckFocus">
+            <enum name="off" value="0"/>
+            <enum name="continuous" value="1"/>
+            <enum name="tap" value="2"/>
+            <enum name="tapWithMarker" value="3"/>
+        </attr>
+
+        <attr format="enum" name="ckZoom">
+            <enum name="off" value="0"/>
+
+            
+            <enum name="pinch" value="0"/>
+        </attr>
+
+
+        <attr format="enum" name="ckMethod">
+            <enum name="standard" value="0"/>
+            <enum name="still" value="1"/>
+
+            
+            <enum name="speed" value="0"/>
+        </attr>
+
+        <attr format="enum" name="ckPermissions">
+            <enum name="strict" value="0"/>
+            <enum name="lazy" value="1"/>
+            <enum name="picture" value="2"/>
+        </attr>
+
+        <attr format="integer" name="ckJpegQuality"/>
+
+        <attr format="enum" name="ckVideoQuality">
+            <enum name="max480p" value="0"/>
+            <enum name="max720p" value="1"/>
+            <enum name="max1080p" value="2"/>
+            <enum name="max2160p" value="3"/>
+            <enum name="highest" value="4"/>
+            <enum name="lowest" value="5"/>
+        </attr>
+
+        <attr format="boolean" name="ckCropOutput"/>
+
+        <attr name="android:adjustViewBounds"/>
+
+    </declare-styleable></file></source><source path="C:\Users\Administrator\Desktop\camera_demo\camerakit\build\generated\res\rs\release"/><source path="C:\Users\Administrator\Desktop\camera_demo\camerakit\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="C:\Users\Administrator\Desktop\camera_demo\camerakit\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CameraView"><attr format="enum" name="ckFacing">
+            <enum name="back" value="0"/>
+            <enum name="front" value="1"/>
+        </attr><attr format="enum" name="ckFlash">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+            <enum name="auto" value="2"/>
+        </attr><attr format="enum" name="ckFocus">
+            <enum name="off" value="0"/>
+            <enum name="continuous" value="1"/>
+            <enum name="tap" value="2"/>
+            <enum name="tapWithMarker" value="3"/>
+        </attr><attr format="enum" name="ckZoom">
+            <enum name="off" value="0"/>
+
+            
+            <enum name="pinch" value="0"/>
+        </attr><attr format="enum" name="ckMethod">
+            <enum name="standard" value="0"/>
+            <enum name="still" value="1"/>
+
+            
+            <enum name="speed" value="0"/>
+        </attr><attr format="enum" name="ckPermissions">
+            <enum name="strict" value="0"/>
+            <enum name="lazy" value="1"/>
+            <enum name="picture" value="2"/>
+        </attr><attr format="integer" name="ckJpegQuality"/><attr format="enum" name="ckVideoQuality">
+            <enum name="max480p" value="0"/>
+            <enum name="max720p" value="1"/>
+            <enum name="max1080p" value="2"/>
+            <enum name="max2160p" value="3"/>
+            <enum name="highest" value="4"/>
+            <enum name="lowest" value="5"/>
+        </attr><attr format="boolean" name="ckCropOutput"/><attr name="android:adjustViewBounds"/></declare-styleable></configuration></mergedItems></merger>

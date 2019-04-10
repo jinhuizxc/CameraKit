@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.flurgle.camerakit.CameraView
+        android:id="@+id/cv_camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.8"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:onClick="light"
+                android:padding="10dp"
+                android:src="@drawable/icon_flash1"
+                android:text="照明"
+                android:textColor="#fff"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/iv_start"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_centerInParent="true"
+                android:onClick="takephoto"
+                android:src="@drawable/btn_shutter_photo" />
+
+            <ImageView
+                android:id="@+id/iv_type"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:onClick="type"
+                android:src="@drawable/icon_photograp_video" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_font_back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="font_back"
+                android:padding="10dp"
+                android:src="@drawable/icon_flash1"
+                android:text="切换摄像头"
+                android:textColor="#fff"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_flash"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="flash"
+                android:padding="10dp"
+                android:src="@drawable/icon_flash1"
+                android:text="开启闪光灯"
+                android:textColor="#fff"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_zoom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="zoom"
+                android:padding="10dp"
+                android:src="@drawable/icon_flash1"
+                android:text="切换拍照模式"
+                android:textColor="#fff"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

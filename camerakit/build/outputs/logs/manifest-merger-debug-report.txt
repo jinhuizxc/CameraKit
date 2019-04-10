@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:1-20:12
+	package
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:2:5-36
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:1-20:12
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:1-20:12
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:4:5-65
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:4:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:5:22-68
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:7:5-60
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:7:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:8:5-10:36
+	android:required
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:10:9-33
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:9:9-57
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:12:9-53
+uses-feature#android.hardware.microphone
+ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:15:9-51
+application
+ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml:18:5-20
+uses-sdk
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\CameraKit\camerakit\src\main\AndroidManifest.xml
